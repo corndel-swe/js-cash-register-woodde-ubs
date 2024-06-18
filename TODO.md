@@ -15,10 +15,10 @@
 
 ### Level 2
 
-- [ ] Complete the `countCoins` function which counts how many coins are in the
+- [X] Complete the `countCoins` function which counts how many coins are in the
       drawer.
 
-- [ ] Complete the `countNotes` function which counts how many notes are in the
+- [X] Complete the `countNotes` function which counts how many notes are in the
       drawer.
 
 ### Level 3
