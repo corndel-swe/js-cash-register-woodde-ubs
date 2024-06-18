@@ -8,10 +8,10 @@
 
 ### Level 1
 
-- [ ] Complete the `removeItem` function which removes a single item from the
+- [X] Complete the `removeItem` function which removes a single item from the
       drawer.
 
-- [ ] Complete the `addItem` function which adds a single item to the drawer.
+- [X] Complete the `addItem` function which adds a single item to the drawer.
 
 ### Level 2
 
