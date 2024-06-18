@@ -5,6 +5,12 @@
  */
 function recipeSummary(recipe) {
   // code here
+  // string formatting / interpolation
+  return `${recipe.name} has ${recipe.ingredients.length} ingredients and serves ${recipe.servings} people`
+  // wayne
+  // const { name, ingredients, servings } = recipe
+  // return `${name} has ${ingredients.length} ingredients and serves ${servings} people`
+
 }
 
 // We have provided two recipes for debugging:
@@ -21,6 +27,9 @@ const recipe2 = {
   servings: 2,
   isVegetarian: true
 }
+
+const result = recipeSummary(recipe1)
+console.log(result)
 
 // don't change below:
 export default recipeSummary

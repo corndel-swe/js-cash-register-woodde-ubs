@@ -3,6 +3,12 @@
  */
 function countServings(recipeBook) {
   // code here
+  let totalServings = 0
+  for (let recipe of recipeBook.recipes) {
+    totalServings += recipe.servings
+  }
+  return totalServings
+
 }
 
 // we've provided a sample object for debugging:
@@ -24,6 +30,9 @@ const recipeBook = {
     }
   ]
 }
+
+//console.log(recipeBook.recipes.servings)
+// console.log(recipeBook.recipes[recipeBook.recipes.length - 1].servings)
 
 // don't change below
 export default countServings
