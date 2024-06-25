@@ -4,6 +4,10 @@
  */
 function lastRecipe(recipeBook) {
   // code here
+
+  // const recipeName = recipeBook.recipes[recipeBook.recipes.length - 1].name
+  // return recipeName
+  return recipeBook.recipes[recipeBook.recipes.length - 1]?.name
 }
 
 // we've provided a sample object for debugging:
@@ -25,6 +29,12 @@ const recipeBook = {
     }
   ]
 }
+
+// console.log(recipeBook.recipes[0].name)
+// console.log(recipeBook.recipes.length - 1)
+// console.log(recipeBook.recipes[recipeBook.recipes.length - 1].name)
+const whatIs = lastRecipe(recipeBook)
+console.log(whatIs)
 
 // don't change below
 export default lastRecipe

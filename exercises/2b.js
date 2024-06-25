@@ -4,7 +4,11 @@
  */
 function listNames(recipes) {
   // code here
+  // const recipeNames = recipes.map(recipe => recipe.name)
+  // return recipeNames
+  return recipes.map(recipe => recipe.name)   // --> produces same result
 }
+
 
 // array provided for debugging:
 const recipes = [
